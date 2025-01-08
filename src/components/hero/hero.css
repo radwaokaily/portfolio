@@ -27,18 +27,21 @@ section.hero .my-details .objective p.summary{
     line-height: 1.6rem;
     margin-bottom: 2rem;
 }
-section.hero .my-details .objective div.social-icons{
+section.hero .my-details .objective div.social-icons {
+
+    gap: 1.3rem;
+}
+section.hero .my-details .objective div.social-icons a{
     font-size: 1.6rem;
     color: var(--primary-text);
-    gap: 1.5rem;
     transition: .3s;
 }
-section.hero .my-details .objective div.social-icons .icon{
+section.hero .my-details .objective div.social-icons a .icon{
     padding: .5rem;
     border-radius: 50%;
     border: 1px solid #AA7280;
 }
-section.hero .my-details .objective div.social-icons .icon:hover{
+section.hero .my-details .objective div.social-icons a .icon:hover{
     cursor: pointer;
     color: #AA7280;
     transition: .3s;

@@ -56,7 +56,7 @@ header .icon-remove:hover{
 header .fixed{
     position: fixed;
     inset: 0;
-    background-color: rgba(109, 109, 157, 0.633);
+    background-color: #aa72806f;
     z-index: 10;
     backdrop-filter: blur(.5rem);
 }
