@@ -1,0 +1,103 @@
+section.main-content{
+    padding: 2rem 0;
+    align-items: start;
+    gap: 2rem;
+}
+section.main-content .buttons{
+    gap: 1rem;
+    flex-direction: column;
+}
+section.main-content .buttons button{
+    width: 8rem;
+    padding: 1rem 2rem;
+    text-align: center;
+    cursor: pointer;
+    font-size: 1rem;
+    opacity: .5;
+    background-color: var(--bg-header);
+    border-radius: .5rem;
+    transition: .3s;
+}
+section.main-content .buttons button:hover{
+    opacity: 1;
+    transition: .3s;
+    font-size: 1.1rem;
+}
+section.main-content .buttons button.active{
+    border: 1px solid var(--light-red);
+    opacity: 1;
+}
+section.main-content .projects{
+    /* flex-grow: 1; */
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+section.main-content .projects .card{
+    border: 1px solid #dba5b344;
+    border-radius: .5rem;
+    width: 16rem;
+    transition: .3s;
+    overflow: hidden;
+    background-image: linear-gradient(rgba(255,255,255,.05),rgba(255,255,255,.05));
+}
+section.main-content .projects .card:hover{
+    border: 1px solid var(--light-red);
+    transition: .3s;
+    rotate: 1deg;
+    scale: 1.01;
+    cursor: pointer;
+}
+section.main-content .projects .card .card-body{
+    padding: 1rem .5rem;
+}
+section.main-content .projects .card .card-body h3{
+    color: var(--primery-text);
+    font-size: 1.2rem;
+}
+section.main-content .projects .card .card-body p{
+    color: var(--secondary-text);
+    font-size: .8rem;
+    margin-block: 1rem;
+}
+section.main-content .projects .card .icons{
+    justify-content: space-between;
+}
+section.main-content .projects .card .icons div{
+    gap: .8rem;
+    color: var(--secondary-text);
+    font-size: 1.4rem;
+    transition: .3s;
+}
+section.main-content .projects .card .icons div a div:hover{
+    color: var(--light-red);
+    cursor: pointer;
+transition: .3s;
+}
+section.main-content .projects .card .icons a{
+    font-size: .8rem;
+    color: var(--light-red);
+    gap: .2rem;
+}
+
+@media  (max-width:600px) {
+    section.main-content{
+        flex-direction: column;
+    }
+    section.main-content .buttons{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    section.main-content .buttons button{
+        width: 5.5rem;
+        padding: .5rem 1rem;
+    font-size: .6rem;
+    }
+    section.main-content .buttons button:hover{
+        opacity: 1;
+        transition: .3s;
+        font-size: .68rem;
+    }
+   
+}

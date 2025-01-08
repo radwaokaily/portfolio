@@ -18,10 +18,19 @@ const Hero = () => {
             passion for delivering seamless, high-performance interfaces.
           </p>
           <div className="social-icons d-flex">
+            <a href="https://drive.google.com/file/d/1XE5mrnM1p8o8i4mxbTu7X37uouaSkI4K/view?usp=drive_link">
             <div className="icon icon-phone"></div>
-            <div className="icon icon-github"><a href="https://github.com/radwaokaily"></a></div>
+            </a>
+            <a href="https://github.com/radwaokaily">
+            <div className="icon icon-github"></div>
+            </a>
+            <a href="https://www.linkedin.com/in/radwa-okaily-8b1825214/">
             <div className="icon icon-linkedin-with-circle"></div>
+            </a>
+            
+            <a href="mailto:radwaokaily69@gmail.com">
             <div className="icon icon-mail"></div>
+            </a>
           </div>
         </div>
       </div>
