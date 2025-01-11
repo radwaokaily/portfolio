@@ -7,7 +7,7 @@ const Header = () => {
       <button onClick={()=>{
         setShowModal(true)
       }} className='menu icon-menu'></button>
-      <div/>
+      <div className='name'>Radwa</div>
       <nav>
         <ul className='d-flex' >
           <li className=''><a href="">About</a></li>
