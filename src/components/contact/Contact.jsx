@@ -5,9 +5,9 @@ const Contact = () => {
     <section className="contact-us d-flex">
       <h3 className='d-flex'>
         <span className='icon-mail'></span>
-        Contact Us
+        Contact me
       </h3>
-      <p>Contact us for more information</p>
+      <p>Contact me for more information</p>
       <div className="contact-us-form d-flex">
 
       <form action="" className=''>
