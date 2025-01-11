@@ -19,6 +19,26 @@ html{
     padding: 0;
     margin: 0;
 }
+/* width */
+::-webkit-scrollbar {
+  width: .3rem;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: var(--bg-header); 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+  border-radius: 200px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--light-red); 
+}
 body{
     background-color: var(--primary) ;
     color: #fff ;

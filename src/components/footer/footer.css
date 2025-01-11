@@ -1,0 +1,22 @@
+footer.d-flex{
+    padding: 1rem 1rem 2rem;
+    justify-content: space-between;
+    color: rgba(111, 121, 130, 0.753);
+}
+footer.d-flex .links ul{
+    gap: .8rem;
+}
+footer.d-flex .links a{
+    color: var(--secondary-text);
+    transition: .3s;
+}
+footer.d-flex .links a:hover{
+    color: var(--light-red);
+    cursor: pointer;
+}
+@media  (max-width:600px){
+    footer.d-flex{
+        flex-direction: column;
+        gap: 1rem;
+    }
+}

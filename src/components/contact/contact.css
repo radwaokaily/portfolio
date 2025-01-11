@@ -37,7 +37,7 @@ section.contact-us form div #email,section.contact-us form div #message{
     padding: .5rem;
     border-radius: .3rem;
     transition: .3s;
-    width: 15rem;
+    width: 14rem;
 }
 section.contact-us form div #email:focus,
 section.contact-us form div #message:focus,
@@ -78,7 +78,7 @@ section.contact-us form button:hover{
         align-items: flex-start;
     }
     section.contact-us .contact-us-form{
-        width: 100%;
+        width: 90%;
 
     }
     section.contact-us .animation-form{
