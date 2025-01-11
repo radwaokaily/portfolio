@@ -1,11 +1,13 @@
 import React from "react";
 import "./hero.css";
+import avatar from "../../../public/assets/imgs/title-icon.png"
+
 const Hero = () => {
   return (
     <section className="hero d-flex">
       <div className="my-details">
         <div className="avatar">
-          <img src="/public/assets/imgs/title-icon.png" alt="avatar" />
+          <img src={avatar} alt="avatar" />
         </div>
         <div className="objective">
           <h1 className="title">Frontend Developer using React.js</h1>

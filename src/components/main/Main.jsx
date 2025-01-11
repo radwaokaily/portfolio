@@ -1,5 +1,6 @@
 import React from "react";
 import "./main.css";
+import avatar from "../../../public/assets/imgs/title-icon.png"
 const Main = () => {
   return (
     <section className="main-content d-flex">
@@ -14,7 +15,7 @@ const Main = () => {
         {[1,2,3,4,5,6].map((item)=>{
           return (
             <div key={item} className="card">
-          <img width={250} src="../../../public/assets/imgs/title-icon.png" alt="" />
+          <img width={250} src={avatar} alt="" />
           <div className="card-body">
             <h3 className="card-title">project name</h3>
             <p className="card-paragraph">
