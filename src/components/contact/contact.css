@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+AU+SA:wght@100..400&display=swap');
 
 section.contact-us {
-    padding:2rem 1rem;
+    padding:2rem 1rem 0;
     flex-direction: column;
     align-items: flex-start;
+    position: relative;
 }
 section.contact-us h3{
     gap: 1rem;
@@ -30,14 +32,16 @@ section.contact-us form div label{
     color: var(--secondary-text);
     margin-right: 1rem;
 }
-section.contact-us form div #email,section.contact-us form div #message{
+section.contact-us form div #email,
+section.contact-us form div #message{
     all: unset;
-    background-color:rgba(63, 63, 70, .15) ;
+    background-color:var(--bg-header);
     box-shadow: 1px 1px 1px var(--light-red);
     padding: .5rem;
     border-radius: .3rem;
     transition: .3s;
     width: 14rem;
+    color: var(--light-red)
 }
 section.contact-us form div #email:focus,
 section.contact-us form div #message:focus,
@@ -66,6 +70,11 @@ section.contact-us form button:hover{
     border: 1px solid var(--light-red);
     transition: .3s;
 
+}
+.succeeded-message{    
+    font-family: "Playwrite AU SA", serif;
+    margin: 1rem auto 0 auto;
+    color: var(--light-red);
 }
 
 @media  (max-width:400px){

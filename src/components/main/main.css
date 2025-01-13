@@ -8,6 +8,7 @@ section.main-content .buttons{
     flex-direction: column;
 }
 section.main-content .buttons button{
+    color: var(--secondary-text);
     width: 8rem;
     padding: 1rem 2rem;
     text-align: center;
@@ -17,6 +18,7 @@ section.main-content .buttons button{
     background-color: var(--bg-header);
     border-radius: .5rem;
     transition: .3s;
+    font-weight: 500;
 }
 section.main-content .buttons button:hover{
     opacity: 1;
@@ -37,9 +39,15 @@ section.main-content .projects .card{
     border: 1px solid #dba5b344;
     border-radius: .5rem;
     width: 16rem;
+    height: 22rem;
     transition: .3s;
     overflow: hidden;
     background-image: linear-gradient(rgba(255,255,255,.05),rgba(255,255,255,.05));
+}
+section.main-content .projects .card img{
+    width: 100%;
+    height: 10rem;
+    object-fit: cover;
 }
 section.main-content .projects .card:hover{
     border: 1px solid var(--light-red);
@@ -49,7 +57,7 @@ section.main-content .projects .card:hover{
     cursor: pointer;
 }
 section.main-content .projects .card .card-body{
-    padding: 1rem .5rem;
+    padding:  .5rem;
 }
 section.main-content .projects .card .card-body h3{
     color: var(--primery-text);

@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Playwrite+AU+SA:wght@100..400&display=swap');
 header.d-flex{
     justify-content: space-between;
-    padding: 1rem 2rem 0;
+    padding: 1rem 0;
 }
 header.d-flex .name{
     font-family: "Playwrite AU SA", serif;
     font-size: 2rem;
+    color: var(--primary-text);
     font-weight: bold; 
 }
 header.d-flex .name::first-letter{
@@ -19,7 +20,7 @@ header.d-flex nav{
     background-color: var(--bg-header);
     padding: 1rem 2rem;
     border-radius: 2rem;
-    box-shadow: 1px 1px 40px rgba(53, 50, 50, 0.29);
+    box-shadow: 1px 1px 10px rgba(53, 50, 50, 0.29);
 }
 header ul.d-flex{
     gap: 2rem;
@@ -40,7 +41,8 @@ header .fixed ul.modal li a:hover{
     transition: .3s;
 }
 header .icon-moon-o,
-header .icon-menu{
+header .icon-menu,
+header .icon-sun{
     background-color: var(--bg-header);
     padding: .8rem;
     border-radius: 50%;
@@ -49,8 +51,12 @@ header .icon-menu{
     border: 1px solid #fa80723b;
     transition: .3s;
 }
+header .icon-sun{
+    color: orange;
+}
 header .icon-moon-o:hover,
-header .icon-menu:hover{
+header .icon-menu:hover,
+header .icon-sun:hover{
     color: var(--primary-text);
     border: 1px solid #fa8072e3;
 }
@@ -99,7 +105,7 @@ header .fixed ul.modal li a{
     50%{scale: 1.2;}
     100%{scale: 1;}
 }
-@media (max-width:700px) {
+@media (max-width:850px) {
     header.d-flex .name{
         font-size: 1rem;
     }
