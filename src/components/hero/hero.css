@@ -36,11 +36,6 @@ section.hero .my-details .objective div.social-icons a{
     color: var(--primary-text);
     transition: .3s;
 }
-section.hero .my-details .objective div.social-icons a .icon{
-    padding: .5rem;
-    border-radius: 50%;
-    border: 1px solid #AA7280;
-}
 section.hero .my-details .objective div.social-icons a .icon:hover{
     cursor: pointer;
     color: #AA7280;

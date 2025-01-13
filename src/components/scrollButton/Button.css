@@ -1,0 +1,16 @@
+html{
+    scroll-behavior: smooth;
+}
+a.scroll-up{
+    position: fixed;
+    padding: .7rem;
+    border-radius: 1rem;
+    background-color: var(--light-red);
+    color: var(--primary-text);
+    bottom: 1rem;
+    right: 1rem;
+    cursor: pointer;
+    z-index: 5555;
+    text-align: center;
+    transition: 1s;
+}
