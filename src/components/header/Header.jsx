@@ -42,10 +42,10 @@ const Header = () => {
       (<div className="fixed">
         <ul className='modal' >
           <li><button className='icon-remove' onClick={()=>{setShowModal(false)}}></button></li>
-        <li><a href="#home">Home</a></li>
-            <li className=''><a href="#about">About</a></li>
-            <li><a href="#project">Projects</a></li>
-            <li><a href="contact">Contact</a></li>
+        <li><a onClick={() => setShowModal(false)} href="#home">Home</a></li>
+            <li className=''><a onClick={() => setShowModal(false)} href="#about">About</a></li>
+            <li><a onClick={() => setShowModal(false)} href="#projects">Projects</a></li>
+            <li><a onClick={() => setShowModal(false)} href="#contact">Contact</a></li>
           </ul>
         </div>)}
     </header>

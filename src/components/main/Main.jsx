@@ -5,7 +5,7 @@ const projects = [
   {
     title: "Backery Shop",
     paragraph:
-      " A fully responsive website template for a bakery. Built with Bootstrap, it features a clean and modern design suitable for showcasing bakery products. The project includes various sections such as product displays about, contact, and testimonials.",
+      " A fully responsive website template for a bakery. Built with Bootstrap, it features a clean and modern design suitable for showcasing bakery products. The project includes various sections such as product displays about, contact.",
     img: "/portfolio/assets/imgs/backery.jpg",
     category: "css",
     link:"https://radwaokaily.github.io/Bakery-bootstrap/",
