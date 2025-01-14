@@ -49,7 +49,8 @@ const Contact = () => {
             </div>
 
             <button type="submit" disabled={state.submitting}>
-              Submit
+              {state.submitting? "Submitting...":"Submit"}
+              
             </button>
           </form>
           <div className="succeeded-message">
