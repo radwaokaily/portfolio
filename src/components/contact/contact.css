@@ -23,7 +23,11 @@ section.contact-us h3 span:hover{
 section.contact-us p{
     color: var(--secondary-text);
     font-size: .8rem;
-    margin-block: 1rem;
+    margin-top: 1rem;
+}
+section.contact-us .contact-us-form{
+    justify-content: space-between;
+    width: 100%;
 }
 section.contact-us form div{
     margin-block: 1rem;
@@ -76,7 +80,6 @@ section.contact-us form button:hover{
     margin: 1rem auto 0 auto;
     color: var(--light-red);
 }
-
 @media  (max-width:400px){
     section.contact-us form{
         width: 100%;
@@ -90,6 +93,14 @@ section.contact-us form button:hover{
         width: 90%;
 
     }
+    section.contact-us {
+        justify-content: center;
+    }
+    section.contact-us .animation-form{
+        display: none;
+    }
+}
+@media  (max-width:800px){
     section.contact-us .animation-form{
         display: none;
     }

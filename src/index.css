@@ -60,7 +60,7 @@ main.container{
 }
 .dvider{
     border: 1px solid var(--border-color) ;
-    margin-top: 4rem;
+    margin-top: 1rem;
 }
 li{
     list-style-type: none;
