@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 
 const Hero = () => {
   return (
-    <section className="hero d-flex">
+    <section className="hero d-flex" id="hero">
       <div className="my-details">
         <motion.div
         initial={{transform:"scale(0)"}}
@@ -29,9 +29,6 @@ const Hero = () => {
             passion for delivering seamless, high-performance interfaces.
           </p>
           <div className="social-icons d-flex">
-            <a href="https://drive.google.com/file/d/1XE5mrnM1p8o8i4mxbTu7X37uouaSkI4K/view?usp=drive_link">
-            <div className="icon icon-phone"></div>
-            </a>
             <a href="https://github.com/radwaokaily">
             <div className="icon icon-github"></div>
             </a>

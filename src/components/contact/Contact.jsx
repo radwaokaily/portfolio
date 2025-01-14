@@ -9,7 +9,7 @@ const Contact = () => {
   const [state, handleSubmit] = useForm("xyzzozor");
 
   return (
-    <section className="contact-us d-flex">
+    <section className="contact-us d-flex" id="contact">
       <h3 className="d-flex">
         <span className="icon-mail"></span>
         Contact me
@@ -49,7 +49,8 @@ const Contact = () => {
             </div>
 
             <button type="submit" disabled={state.submitting}>
-              Submit
+              {state.submitting? "Submitting...":"Submit"}
+              
             </button>
           </form>
           <div className="succeeded-message">
