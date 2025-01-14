@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 
 const Hero = () => {
   return (
-    <section className="hero d-flex">
+    <section className="hero d-flex" id="hero">
       <div className="my-details">
         <motion.div
         initial={{transform:"scale(0)"}}

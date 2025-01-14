@@ -84,7 +84,7 @@ const Main = () => {
             setFilterProjects(newArr);
   }
   return (
-    <section className="main-content d-flex">
+    <section className="main-content d-flex" id="projects">
       <div className="buttons d-flex">
         <button
           className={currentActive === "all" ? "active" : null}
