@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./main.css";
-
+import { motion,AnimatePresence } from "framer-motion";
 const projects = [
   {
     title: "Backery Shop",
@@ -129,9 +129,17 @@ const Main = () => {
         </button>
       </div>
       <div className="projects d-flex">
+      <AnimatePresence>
+
         {filterProjects.map((item) => {
           return (
-            <div key={item.title} className="card">
+            <motion.div
+            layout
+      initial={{transform:"scale(.4)"}}
+      animate={{transform:"scale(1)"}}
+      transition={{type:"spring",damping:8,stiffness:50}}
+      // transition={{duration:1}}
+             key={item.title} className="card">
               <img width={250} src={item.img} alt="" />
               <div className="card-body">
                 <h3 className="card-title">{item.title}</h3>
@@ -151,9 +159,11 @@ const Main = () => {
                   </a>
                 </div>
               </div>
-            </div>
+            </motion.div>
           );
         })}
+      </AnimatePresence>
+
       </div>
     </section>
   );

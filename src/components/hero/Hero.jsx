@@ -1,14 +1,23 @@
 import React from "react";
 import "./hero.css";
+import Lottie from "lottie-react";
 import avatar from "../../../public/assets/imgs/title-icon.png"
+import reactAnimation from "../../../public/assets/animation/react-animation.json";
+import { motion } from "framer-motion";
 
 const Hero = () => {
   return (
     <section className="hero d-flex">
       <div className="my-details">
-        <div className="avatar">
-          <img src={avatar} alt="avatar" />
-        </div>
+        <motion.div
+        initial={{transform:"scale(0)"}}
+        animate={{transform:"scale(1)"}}
+        transition={{damping:6,type:"spring"}}
+         className="avatar">
+          <img
+          
+           src={avatar} alt="avatar" />
+        </motion.div>
         <div className="objective">
           <h1 className="title">Frontend Developer using React.js</h1>
           <p className="summary">
@@ -36,7 +45,14 @@ const Hero = () => {
           </div>
         </div>
       </div>
-      {/* <div className="animation">ssssssssssssssss</div> */}
+
+      <div className="animation">
+      <Lottie 
+                  animationData={reactAnimation}
+                  loop={true}
+                  style={{height:"20%"}}
+                />
+      </div>
     </section>
   );
 };
