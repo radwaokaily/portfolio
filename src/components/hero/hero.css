@@ -1,8 +1,9 @@
 section.hero {
-    margin-top: 3rem;
+    /* margin-top: 3rem; */
+    justify-content: space-between;
 }
 section.hero .my-details{
-flex-grow: 1;}
+flex: 1;}
 section.hero .my-details .avatar{
     width: 5rem;
     height: 5rem;
@@ -40,4 +41,12 @@ section.hero .my-details .objective div.social-icons a .icon:hover{
     cursor: pointer;
     color: #AA7280;
     transition: .3s;
+}
+section.hero .animation{
+    flex: 1;
+}
+@media  (max-width:800px){
+    section.hero .animation{
+        display: none;
+    }
 }
