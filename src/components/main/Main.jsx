@@ -153,10 +153,7 @@ const Main = () => {
                       <div className="icon-github"></div>
                     </a>
                   </div>
-                  <a className="d-flex" href="http://">
-                    more
-                    <span className="icon-arrow-right2"></span>
-                  </a>
+                  
                 </div>
               </div>
             </motion.div>

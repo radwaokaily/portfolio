@@ -46,6 +46,9 @@ section.hero .animation{
     flex: 1;
 }
 @media  (max-width:800px){
+    section.hero .my-details{
+        text-align: center;
+    }
     section.hero .animation{
         display: none;
     }
