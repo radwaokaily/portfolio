@@ -18,7 +18,7 @@ section.hero .my-details .avatar img{
 }
 section.hero .my-details .objective h1.title{
     font-size: 2.5rem;
-    color: var(--primary-text);
+    color: var(--primery-text);
     margin-block: 1.5rem;
     line-height: 3rem;
 }
@@ -34,7 +34,7 @@ section.hero .my-details .objective div.social-icons {
 }
 section.hero .my-details .objective div.social-icons a{
     font-size: 1.6rem;
-    color: var(--primary-text);
+    color: var(--primery-text);
     transition: .3s;
 }
 section.hero .my-details .objective div.social-icons a .icon:hover{
@@ -46,6 +46,9 @@ section.hero .animation{
     flex: 1;
 }
 @media  (max-width:800px){
+    section.hero .my-details{
+        text-align: center;
+    }
     section.hero .animation{
         display: none;
     }

@@ -6,7 +6,7 @@ header.d-flex{
 header.d-flex .name{
     font-family: "Playwrite AU SA", serif;
     font-size: 2rem;
-    color: var(--primary-text);
+    color: var(--primery-text);
     font-weight: bold; 
 }
 header.d-flex .name::first-letter{
@@ -26,7 +26,7 @@ header ul.d-flex{
     gap: 2rem;
 }
 header ul.d-flex li a{
-    color: var(--primary-text);
+    color: var(--primery-text);
     opacity: .8;
     font-weight: 500;
     font-size: .8rem;
@@ -57,7 +57,7 @@ header .icon-sun{
 header .icon-moon-o:hover,
 header .icon-menu:hover,
 header .icon-sun:hover{
-    color: var(--primary-text);
+    color: var(--primery-text);
     border: 1px solid #fa8072e3;
 }
 header .icon-remove{
@@ -98,7 +98,7 @@ header .fixed ul.modal li:last-child{
 }
 header .fixed ul.modal li a{
     font-size: 1rem;
-    color: var(--primary-text);
+    color: var(--primery-text);
 }
 @keyframes menu-animation {
     0%{scale: 0;}

@@ -60,6 +60,15 @@ const projects = [
     link:"https://radwaokaily.github.io/salles/",
     repo:"https://github.com/radwaokaily/salles"
   },
+  ,
+  {
+    title: "Hotel Booking Web App",
+    paragraph:" A modern, responsive hotel booking platform built with React.js, Tailwind CSS, shadcn/ui, and Clerk for authentication. Users can browse, filter, and book hotels with a clean UI and smooth user experience.",
+    img: "/portfolio/assets/imgs/roomImg1.png",
+    category: "react-tailwind",
+    link:"https://hotel-booking-rho-jet.vercel.app/",
+    repo:"https://github.com/radwaokaily/Hotle_Booking"
+  }
   // {
   //   title: "Engage",
   //   paragraph:
@@ -127,6 +136,14 @@ const Main = () => {
         >
           React & Bootstrap
         </button>
+        <button
+          className={currentActive === "react-tailwind" ? "active" : null}
+          onClick={() => {
+            handleClick("react-tailwind")
+          }}
+        >
+          React & Tailwind
+        </button>
       </div>
       <div className="projects d-flex">
       <AnimatePresence>
@@ -153,10 +170,7 @@ const Main = () => {
                       <div className="icon-github"></div>
                     </a>
                   </div>
-                  <a className="d-flex" href="http://">
-                    more
-                    <span className="icon-arrow-right2"></span>
-                  </a>
+                  
                 </div>
               </div>
             </motion.div>
