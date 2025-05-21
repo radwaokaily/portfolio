@@ -3,7 +3,7 @@
     --primary:#000;
     --secondary:rgb(24 24 27);
     --border-color:rgba(63, 63, 70, .4);
-    --primary-text:rgb(244 244 245);
+    --primery-text:rgb(244 244 245);
     --secondary-text:rgb(161 161 170);
     --bg-header:rgb(39 39 42);
     --light-red:#AA7280;
@@ -11,7 +11,7 @@
 .light{
     --primary:rgb(245, 237, 237);
     --secondary:#fff;
-    --primary-text:#000;
+    --primery-text:#000;
     --secondary-text:rgb(45, 45, 50);
     --border-color:rgba(208, 208, 214, 0.4);
     --bg-header:rgb(255, 255, 255);
